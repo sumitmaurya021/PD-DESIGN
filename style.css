@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* FONT FAMILY START HERE*/
+
+@font-face {
+    font-family: 'Futura PT Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Book'), url('Font/FuturaCyrillicBook.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura PT Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Light'), url('Font/FuturaCyrillicLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura PT Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Medium'), url('Font/FuturaCyrillicMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura PT Demi';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Demi'), url('Font/FuturaCyrillicDemi.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura PT Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Heavy'), url('Font/FuturaCyrillicHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura PT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Bold'), url('Font/FuturaCyrillicBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Futura PT Extra Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura PT Extra Bold'), url('Font/FuturaCyrillicExtraBold.woff') format('woff');
+    }
+
+
+
+
+    /* FONT FAMILY END HERE */
+
+    /* NAVBAR START HERE */
+
+    .navbar-border{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        position: sticky;
+    }
+    .bg-color-1{
+        background: #014D4E;
+    }
+    .banner-section-1{
+        height: 80vh;
+    }
+    /* .header{
+        position: fixed;
+        width: 100%;
+        z-index: 1001;
+        transition: .5s;
+        top: 0;
+        left: 0;
+        background: transparent;
+    }
+    .header.sticky{
+        background: white;
+        box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    } */
+
+    /* NAVBAR END HERE */
+
+    .services{
+        background: #F3F3F3;
+    }
+    .banner-section-col-1{
+        margin-top: 180px;
+    }
+    .banner-section-4{
+        background: #014D4E;
+    }
+    .banner-section-6{
+        background: #252525;
+    }
+
+    /* BANNER SECTION 7 */
+
+    .banner-section-7{
+        background: #F3F3F3;
+    }
+    .banner-section-7-padding{
+       padding: 100px !important;
+    }
+
+    /* BANNER SECTION 8 */
+    /* .banner-section-8{
+        height: 700px;
+    } */
+    .banner-section-8-padding{
+        padding: 50px;
+    }
+    .top{
+        top: 145px;
+    }
+
+    /* BANNER SECTION 9 */
+
+    .banner-section-9{
+        background: #272727;       
+    }
+    .banner-9-border{
+        border: 1px solid white;
+    }
+    .transition-btn{
+        transition: 0.3s;
+        display: flex;
+    }
+    .transition-btn:hover{
+        padding-left: 20px;
+    }
+    /* BANNER SECTION 3 */
+    .banner-3-img{
+        transform: scale(1.2);
+        margin-top: -55px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    .banner-3-img:hover{
+        transform: scale(1.3);
+    }
+
+
+
+    /* BANNER SECTION 4 */
+    .section-4-minus-margin{
+        margin: -100px;
+        
+    }
+    .img-minus-margin{
+        transform: scale(1.2);
+        margin-top: -50px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .img-minus-margin:hover{
+        transform: scale(1.3);
+    }
+
+    /* BANNER SECTION 5 */
+    .banner-section-5-img{
+        transform: scale(1.2);
+        margin-top: -90px;
+    }
+
+
+    /* BANNER SECTION 11 */
+
+    .banner-section-11{
+        background: #F3F3F3;
+    }
+    /* Slide */
+
+
+
+    .slick-slide {
+        margin: 0px 20px;
+    }
+    
+    .slick-slide img {
+        width: 100%;
+    }
+    
+    .slick-slider
+    {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-touch-callout: none;
+        user-select: none;
+        -khtml-user-select: none;
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .slick-list
+    {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .slick-list:focus
+    {
+        outline: none;
+    }
+    .slick-list.dragging
+    {
+        cursor: pointer;
+        cursor: hand;
+    }
+    
+    .slick-slider .slick-track,
+    .slick-slider .slick-list
+    {
+        -webkit-transform: translate3d(0, 0, 0);
+           -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+             -o-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+    }
+    
+    .slick-track
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        display:block;
+    }
+    .slick-track:before,
+    .slick-track:after
+    {
+        display: table;
+        content: '';
+    }
+    .slick-track:after
+    {
+        clear: both;
+    }
+    .slick-loading .slick-track
+    {
+        visibility: hidden;
+    }
+    
+    .slick-slide
+    {
+        display: none;
+        float: left;
+        height: 100%;
+        min-height: 1px;
+    }
+    [dir='rtl'] .slick-slide
+    {
+        float: right;
+    }
+    .slick-slide img
+    {
+        display: block;
+    }
+    .slick-slide.slick-loading img
+    {
+        display: none;
+    }
+    .slick-slide.dragging img
+    {
+        pointer-events: none;
+    }
+    .slick-initialized .slick-slide
+    {
+        display: block;
+    }
+    .slick-loading .slick-slide
+    {
+        visibility: hidden;
+    }
+    .slick-vertical .slick-slide
+    {
+        display: block;
+        height: auto;
+        border: 1px solid transparent;
+    }
+    .slick-arrow.slick-hidden {
+        display: none;
+    }
+
+
+    /* BANNER SECTION 12 */
+
+    .banner-section-12{
+        background: #014D4E;
+    }
+    .contact-bg-color{
+        background: rgba(126, 134, 158, 0.1);
+    }
+    .border-style-none{
+        border: none;
+    }
+    
+    input:placeholder-shown{
+        border-bottom: 1px solid #FFFFFF;
+        
+    }
+
+
+    input{
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER SECTION */
+
+    .footer-section{
+        background: #272727;
+    }
+    .footer-button{
+        width: 100%;
+        height: 52px;
+        background: #424141;
+        border-radius: 100px;
+        position: relative;
+
+    }
+    .footer-button-1{
+        width: 115px;
+        height: 40px;
+        border-radius: 100px;
+        position: absolute;
+        margin: 7px 0px 0px -127px;
+        background: black;
+        color: white;
+    }
+
+    /* BANNER SECTION 6 */
+    /* .banner-section-6-transform{
+        transform: scale(1.2);
+    } */
+    .banner-section-6-transform-2{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    }
+    .banner-section-6-p{
+        padding: 22px;
+    }
+
+    /* BANNER SECTION 1 */
+    .banner-1-btn1{
+        font-size: 20px;
+        color: #014D4E;
+        border-radius: 100px;
+    }
+    .banner-1-btn2{
+        font-size: 20px;
+        color: white;
+        border-radius: 100px;
+        background: #FFFFFF40 !important;
+    }
+
+    .hover-btn-style{
+        transition: 0.3s;
+    }
+
+    .hover-btn-style:hover{
+        padding-right: 3px;
+    }
+
+    .widthallimage{
+        width: 192px;
+        height: 192px;
+        object-fit: cover;
+    }
+
+    .image-set{
+        margin: -50px auto 0;
+    }
+    .gap-style{
+        grid-row-gap: 7rem !important ;
+    }
+
+    
+    /* Input Style */
+
+
+
+    /* footer line */
+    .footerline a{
+        
+        transition: 1s;
+    }
+
+
+
+
+    /* Footer Design */
+
+    .footer-design{
+        transition: 0.5s ease-in-out;
+        right: 0;
+    }
+
+    .footer-design:hover{
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    /* banner section 9 */
+
+    .banner-section-img222{
+        transition: 0.5s ease;
+    }
+    .banner-section-img222:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .banner-section-img2223{
+        transition: 0.5s ease;
+    }
+    .banner-section-img2223:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+#scrollBtn{
+    border: none;
+    background-color: #272727;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#scrollBtn:hover{
+    background-color: white;
+    color: #272727;
+}

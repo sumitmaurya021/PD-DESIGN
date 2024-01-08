@@ -1,0 +1,143 @@
+.font1{
+    font-family: 'Futura PT Light';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 50px;
+    color: #ffffff;
+}
+.font4{
+    font-family: 'Futura PT Light';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 50px;
+    color: #272727;
+}
+.font2{
+    font-family: 'Futura PT Light';
+    font-size: 18px;
+    line-height: 32px;
+    color: #272727;
+    font-weight: 400;
+}
+.font3{
+    font-family: 'Futura PT Medium';
+    font-size: 18px;
+    line-height: 38px;
+    color: #272727;
+    font-weight: 600;
+}
+.font5{
+    font-family: 'Futura PT Light';
+    font-size: 18px;
+    line-height: 32px;
+    color: #272727;
+    font-weight: 400;
+}
+.font6{
+    font-family: 'Futura PT Light';
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.font7{
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #272727;
+    text-transform: uppercase;
+}
+.font8{
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #272727;
+    text-transform: uppercase;
+}
+
+.font9{
+    font-family: 'Futura PT Light';
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.font10{
+    font-family: 'Futura PT Light';
+    font-size: 18px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.font11{
+    font-family: 'Faustina', serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.font12{
+    font-family: 'Futura PT Medium';
+    font-size: 18px;
+    line-height: 32px;
+    color: #014D4E;
+    font-weight: 400;
+}
+.font13{
+    font-family: 'Futura PT Medium';
+    font-size: 3rem;
+    font-weight:400;
+    line-height: 1em;
+}
+.font14{
+    font-family: 'Futura PT Medium';
+    font-size: 29px;
+    line-height: 47px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.font15{
+    font-family: 'Futura PT Medium';
+    font-size: 17px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.font16{
+    font-family: 'Futura PT Medium';
+    font-size: 15px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    background: rgba(126, 134, 158, 0.1);
+}
+.font17{
+    font-family: 'Futura PT Medium';
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.font18{
+    font-family: 'Futura PT Medium';
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.font19{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.font20{
+    font-family: 'Futura PT Medium';
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+}
